@@ -4,7 +4,7 @@
     전부 끝낸 뒤 *을 다시 empty string으로 변경하고 
     babbling 안의 empty string이 몇개인지 카운트 후 return 
 */
-function initial_solution(babbling) {
+function my_solution(babbling) {
     let answer = 0;
     const able_words = ["aya", "ye", "woo", "ma"]; 
     for(let i=0; i<babbling.length; i++) {
